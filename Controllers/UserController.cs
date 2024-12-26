@@ -38,8 +38,11 @@ namespace Registration.Controllers
                 {
                     return View(user);
                 }
+                UserRepo.Form(user);
                 return RedirectToAction("Notparticibate");
+
             }
+
             
 
             return RedirectToAction("Check", user);

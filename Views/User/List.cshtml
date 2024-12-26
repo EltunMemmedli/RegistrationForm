@@ -28,6 +28,9 @@
                     <p>Name: @user.Name</p>
                     <p>Surname: @user.Surname</p>
                     <p>Email: @user.Email</p>
+                    <p>
+                        Status: @(user.Particibate == true ? "Participate" : "Not Participate")
+                    </p>
                 </li>
             }
 
