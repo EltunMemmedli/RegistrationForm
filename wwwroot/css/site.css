@@ -1,0 +1,209 @@
+﻿body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Enter{
+    font-family: "Inter", serif;
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 100px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.Enter p{
+    text-align: center;
+}
+
+.error-Name {
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    margin-top: 10px !important;
+    margin-left: 10px
+}
+
+.error-Surname {
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px
+}
+.error-Email {
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    margin-left:10px;
+    margin-top:10px
+}
+
+
+
+.Enter a {
+    width: 200px !important;
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-top: 50px !important;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid lightblue;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.Enter a:hover{
+    background-color: lightblue;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.Form{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Inter", serif;
+    margin-left: 10px;
+}
+
+.FormCard{
+    border: 1px solid black;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.FormCard div{
+    text-align: center;
+}
+
+.FormCard li{
+    list-style-type: none;
+    font-family: "Inter", serif;
+}
+
+.FormCard ul{
+    margin-top: 50px;
+}
+
+.FormCard div input{
+    padding:15px;
+    width: 300px;
+    margin-top: 30px;
+    font-family: "Inter", serif;
+    border-radius: 10px;
+    border: 1px solid black
+}
+
+.FormCard div input:invalid{
+    border: 2px solid red;
+}
+
+.FormCard button{
+    display: block;
+    font-family: "Inter", serif;
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: 1px solid lightblue;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.FormCard button:hover{
+    background-color: lightblue;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.Reply{
+    border: 1px solid black;
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.none{
+    border: 1px solid red;
+}
+
+.Buttons{
+    display: flex;
+}
+
+.Red{
+    border: 1px solid red !important;
+}
+
+.Red:hover{
+    background-color: red !important;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.Reply p{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Inter", serif;
+}
+
+.Reply i{
+    font-size: 20px;
+}
+
+.Reply a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid lightblue;
+    display: block;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Reply a:hover{
+    background-color: lightblue;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.head p{
+    font-family: "Inter", serif;
+    font-size: 30px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.List ul{
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    gap:50px;
+    justify-content: center;
+}
+
+.List li{
+    list-style-type: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.List p{
+    margin-left: 20px;
+}
