@@ -6,6 +6,7 @@ namespace Registration.Controllers
 {
     public class UserController : Controller
     {   
+
         public IActionResult Enter()
         {
             return View();

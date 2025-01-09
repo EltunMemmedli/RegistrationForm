@@ -28,7 +28,7 @@ namespace Registration.Repository
             if (user == null)
             {
                 Console.WriteLine("Invalid user.");
-                return;
+                return ;
             }
 
             user.Id = newID;
